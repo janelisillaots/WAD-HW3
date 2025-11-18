@@ -48,7 +48,6 @@ export default {
     background-color: #d3d3d3;
     border-radius: 10px;
     padding: 8px;
-
 }
 
 .post > div { 
@@ -63,7 +62,7 @@ export default {
 }
 
 main > article > div > p {
-    font-size: small;
+    font-size: 14px;
 }
 
 .image {
@@ -71,16 +70,11 @@ main > article > div > p {
     height: auto;
     margin: 0;
 }
+
 .message {
     padding-left: 3px;
     margin: 0px, 5px;
     text-align: left;
-}
-
-.like-btn {
-    width: 2em;
-    height: 2em;
-    margin-left: 3px;
 }
 
 .like {
