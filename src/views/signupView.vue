@@ -1,5 +1,4 @@
 <template>
-  <NavHeader />
   <div>
     <form @submit.prevent ="validateForm">
       <h2>Create an account</h2>
@@ -22,17 +21,12 @@
       </div>
     </form>
   </div>
-  <FooterSection />
 </template>
 
 
 <script>
-import NavHeader from "@/components/NavHeader.vue";
-import FooterSection from "@/components/FooterSection.vue";
 export default {
   name: "FormView",
-  components: { NavHeader, FooterSection },
-
   // binds variables for example v-model="email"
   data: function() {
     return {

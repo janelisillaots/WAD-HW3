@@ -1,5 +1,4 @@
 <template>
-  <NavHeader />
   <body>
     <section class="bars">
       <aside class="sidebar"></aside>
@@ -10,17 +9,14 @@
       <aside class="sidebar"></aside>
     </section>
   </body>
-  <FooterSection />
 </template>
 
 <script>
 import { mapGetters } from "vuex";
 import Post from "../components/BlogPost.vue";
-import NavHeader from "@/components/NavHeader.vue";
-import FooterSection from "@/components/FooterSection.vue";
 export default { 
   name: "MainView",
-  components: { Post, NavHeader, FooterSection },
+  components: { Post },
   computed: {
     ...mapGetters(["allPosts"]),
     posts() {

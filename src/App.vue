@@ -1,5 +1,7 @@
 <template>
+  <NavHeader />
   <router-view />
+  <FooterSection />
 </template>
 
 <style>
@@ -12,5 +14,7 @@
 }
 
 </style>
-<script setup lang="ts">
+<script setup>
+import NavHeader from "@/components/NavHeader.vue";
+import FooterSection from "@/components/FooterSection.vue";
 </script>
