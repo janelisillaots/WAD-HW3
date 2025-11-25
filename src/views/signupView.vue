@@ -72,7 +72,7 @@ export default {
       this.validatePassword = errors.length > 0 ? "The password is not valid: " + errors.join(", ") : "";
 
       // Submit button moves you to main page
-      if (errors.length === 0) this.$router.push('/main');
+      if (errors.length === 0) this.$router.push('/');
     }
   }
 }
